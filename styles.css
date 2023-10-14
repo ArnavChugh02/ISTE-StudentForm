@@ -1,0 +1,115 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #78cfbc;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8eded;
+    color: #090101;
+    padding: 10px 10px;
+}
+
+header h1{
+    text-transform: capitalize;
+    text-align: center;
+    text-size-adjust: 50px;
+    margin-left: 580px;
+}
+
+.events {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row; /* Prevent wrapping onto multiple lines */
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+    margin: 20px;
+    max-width: 100%; /* Allow some space for margins */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.event-card {
+    flex: 0 0 auto; /* Don't allow cards to grow or shrink */
+    background-color: #fffcff;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 10px; /* Add some space between cards */
+}
+
+.event-card img {
+    margin-top: 20px;
+    max-width: 300px;
+    max-height: 350px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.event-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.event-card p {
+    font-size: 14px;
+    margin: 8px 0;
+}
+
+.register-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.register-btn:hover {
+    background-color: #555;
+}
+
+.registration-form {
+    margin-left: 520px;
+    margin-bottom: 20px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius:10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.registration-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.registration-form label,
+.registration-form input,
+.registration-form select {
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.registration-form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.registration-form button:hover {
+    background-color: #555;
+}
+
